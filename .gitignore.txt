@@ -1,2 +1,0 @@
-Cake/tmp/*.*
-Cake/tmp/debug_kit.sqlite
