@@ -1,1 +1,1 @@
-Cakes/tmp/*.*
+Cake/tmp/*.*
