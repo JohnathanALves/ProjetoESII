@@ -1,2 +1,2 @@
-.gitignore
-/tmp/*.*
+Cake/tmp/*.*
+Cake/tmp/debu
