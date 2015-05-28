@@ -225,6 +225,7 @@ return [
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
+            'schema' => 'mosquitos',
 
             /**
              * Set identifier quoting to true if you are using reserved words or
