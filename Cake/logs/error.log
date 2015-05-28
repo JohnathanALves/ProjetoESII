@@ -1,0 +1,70 @@
+2015-05-21 14:46:26 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(89): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(196): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Panel\SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Routing\Filter\DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-21 14:47:17 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(89): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(196): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Panel\SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Routing\Filter\DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-26 13:41:44 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Postgres cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Postgres',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(89): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(196): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Panel\SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\debug_kit\src\Routing\Filter\DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(385): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Event\EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-05-26 13:44:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoESII/Cake/webroot/
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
