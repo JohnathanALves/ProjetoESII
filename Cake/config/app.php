@@ -225,6 +225,7 @@ return [
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
+            'schema' => 'mosquitos',
 
             /**
              * Set identifier quoting to true if you are using reserved words or
@@ -251,13 +252,13 @@ return [
          */
         'test' => [
             'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Mysql',
+            'driver' => 'Cake\Database\Driver\Postgres',
             'persistent' => false,
-            'host' => 'localhost',
+            'host' => '10.87.154.49',
             //'port' => 'nonstandard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'test_myapp',
+            'username' => 'postgres',
+            'password' => 'moscamed',
+            'database' => 'moscamed',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
