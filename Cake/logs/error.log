@@ -68,3 +68,16 @@ Stack Trace:
 #1 {main}
 
 
+2015-06-02 14:13:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /ProjetoESII/Cake/webroot/
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
