@@ -6,8 +6,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
 	<link rel="stylesheet" href="css/styleliberacao.css">
 </head>
 
@@ -105,9 +107,14 @@
 						</div>
 						<div class="form-group">
 							<label class="control-label col-xs-5" for="hora">Hora:</label>
-				            <div class="col-xs-3">
-				                <input type="text" class="form-control" id="hora" name="hora">
+				            <div class="col-xs-2">
+				                <input type="time" class="form-control" id="hora" name="hora">
 				            </div>
+						</div>
+						<div class="form-group"> 
+						    <div class="col-sm-offset-5 col-sm-10">
+						    	<button type="submit" class="btn btn-default">Submit</button>
+						    </div>
 						</div>
 					</form>
 				</div>

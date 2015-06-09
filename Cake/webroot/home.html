@@ -5,7 +5,7 @@
 	<title>Gestão Moscamed</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/stylehome.css">
@@ -13,16 +13,34 @@
 
 <body id="telalogin">
 	
-<nav class="navbar navbar-success" id="navbar">
+<nav class="navbar navbar-default" id="navbar">
 	<div class="container-fluid">
 	    <div class="navbar-header">
 	    	<a href="#"><img src="res/img/mosca.png" class="img-thumbnail" width="130" height="100"></a>
 	    </div>
 	    <div>
 	    	<ul class="nav navbar-nav">
-	        	<li><a href="#">Liberação</a></li>
-		        <li><a href="#">Área</a></li> 
-		        <li><a href="#">Controle de Liberação</a></li>  
+	        	<li class="active"><a href="#">Home</a></li>
+		        <li class="dropdown">
+		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Relarórios
+		        	<span class="caret"></span></a>
+		        	<ul class="dropdown-menu">
+		        		<li><a href="#">Relatório 1</a></li>
+		        		<li><a href="#">Relatório 2</a></li>
+		        		<li><a href="#">Relatório 3</a></li>
+		        		<li><a href="#">Relatório 4</a></li>
+		        	</ul>
+		        </li>
+		        <li class="dropdown">
+		        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Banco de Dados
+		        	<span class="caret"></span></a>
+		        	<ul class="dropdown-menu">
+		        		<li><a href="#">Consulta relatório tipo 1</a></li>
+		        		<li><a href="#">Consulta relatório tipo 2</a></li>
+		        		<li><a href="#">Consulta relatório tipo 3</a></li>
+		        		<li><a href="#">Consulta relatório tipo 4</a></li>
+		        	</ul>
+		        </li>
 	    	</ul>
 	    </div>
 	</div>
