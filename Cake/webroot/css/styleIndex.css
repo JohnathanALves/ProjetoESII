@@ -33,7 +33,11 @@ body > .container {
 	padding: 60px 15px 0;
 }
 
-#navbar {
-	
-	color:  #000;
+#panel {
+	margin: 70px 0 0 0;
+}
+
+#alertlogin, #alertsenha {
+	margin: 5px 0px 0px 0px;
+	padding: 10px
 }
